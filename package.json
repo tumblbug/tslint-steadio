@@ -2,6 +2,10 @@
   "name": "tslint-steadio",
   "version": "1.0.0",
   "keywords": ["tslint", "tslint-plugin", "tslint-rules"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tumblbug/tslint-steadio"
+  },
   "main": "tslint.json",
   "types": "rules/index.d.ts",
   "license": "MIT",
