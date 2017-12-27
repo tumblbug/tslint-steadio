@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "removeComments": true,
+    "target": "es5",
+    "rootDir": "src",
+    "outDir": "rules",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": [
+      "es6"
+    ],
+    "module": "commonjs",
+    "declaration": true,
+    "importHelpers": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

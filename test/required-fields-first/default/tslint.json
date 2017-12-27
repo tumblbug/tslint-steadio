@@ -1,0 +1,6 @@
+{
+  "rulesDirectory": "../../../rules",
+  "rules": {
+    "required-fields-first": true
+  }
+}

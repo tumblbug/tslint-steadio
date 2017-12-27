@@ -1,0 +1,29 @@
+interface Props {
+~~~~~~~~~~~~~~~~~
+  a?: string;
+~~~~~~~~~~~~~
+  b: number;
+~~~~~~~~~~~~
+}
+~ [Place required properties first]
+
+interface Props {
+~~~~~~~~~~~~~~~~~
+  b: string;
+~~~~~~~~~~~~
+  a?: string;
+~~~~~~~~~~~~~
+  c: string;
+~~~~~~~~~~~~
+}
+~ [Place required properties first]
+
+interface Props {
+  a: string;
+  b: string;
+}
+
+interface Props {
+  a?: string;
+  b?: string;
+}

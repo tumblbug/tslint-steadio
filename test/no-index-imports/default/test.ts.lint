@@ -1,0 +1,4 @@
+import Bob from '../bob/index';
+                ~~~~~~~~~~~~~~ [Do not include index in import paths]
+
+require('normalize.css/index.css');

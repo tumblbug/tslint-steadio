@@ -1,0 +1,26 @@
+{
+  "name": "tslint-steadio",
+  "version": "1.0.0",
+  "keywords": ["tslint", "tslint-plugin", "tslint-rules"],
+  "main": "tslint.json",
+  "types": "rules/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn run build",
+    "test": "tslint --test ./test/**/*",
+    "build": "rm -rf ./rules && tsc"
+  },
+  "dependencies": {
+    "tsutils": "^2.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0",
+    "typescript": "^2.0.0"
+  },
+  "files": ["/rules/**/*"]
+}

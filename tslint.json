@@ -1,0 +1,8 @@
+{
+  "defaultSeverity": "error",
+  "rulesDirectory": ["./rules"],
+  "rules": {
+    "no-index-import": true,
+    "required-fields-first": true
+  }
+}
